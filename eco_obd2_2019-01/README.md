@@ -54,7 +54,7 @@ Photos
 <td><a href="packaging/insert_back.jpg"><img src="thumbs/insert_back_t.jpg" alt="Insert back"></a></td>
 </tr>
 <tr>
-<td><a href="packaging/insert_inside_top.jpg"><img src="thumbs/insert_inside_top_T.jpg" alt="Insert inside top"></a></td>
+<td><a href="packaging/insert_inside_top.jpg"><img src="thumbs/insert_inside_top_t.jpg" alt="Insert inside top"></a></td>
 <td><a href="packaging/insert_inside_bottom.jpg"><img src="thumbs/insert_inside_bottom_t.jpg" alt="Insert inside bottom"></a></td>
 </tr>
 </tbody>
