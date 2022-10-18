@@ -59,3 +59,4 @@ Click the photo/name of the device for details, photos, and schematic.
 |-------|------------|---------------|--------|------------------------------------|
 |[![ecoOBD2](eco_obd2_2019-01/thumbs/front_t.jpg)](eco_obd2_2019-01/README.md)       | [ecoOBD2](eco_obd2_2019-01/README.md)    | 2019-01       | Green  | MCU-based non-connected/monitoring |
 |[![Super OBD2](super_obd2_2019-01/thumbs/front_t.jpg)](super_obd2_2019-01/README.md)       | [Super OBD2](super_obd2_2019-01/README.md) | 2019-01       | Yellow | MCU-based non-connected            |
+|[![nitroOBD2](nitro_obd2_2022-09/thumbs/front_t.jpg)](nitro_obd2_2022-09/README.md)       | [nitroOBD2](nitro_obd2_2022-09/README.md) | 2022-09       | Yellow | Analog flasher, non-connected            |
