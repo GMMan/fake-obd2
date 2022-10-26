@@ -6,18 +6,17 @@ nitroOBD2 (2022-09)
 | Name               | nitroOBD2 (Benzine)                                                                                                                                                                                                                                                                                                 |
 | Purchase date      | 2022-09                                                                                                                                                                                                                                                                                                             |
 | Color              | Yellow                                                                                                                                                                                                                                                                                                              |
-| Purchase link      | [eBay](https://www.ebay.com/itm/363856147846), seller [solarf5780](https://www.ebay.com/str/solarf5780)<br>[eBay](https://www.ebay.com/itm/313561026568), seller [ffaut_14](https://www.ebay.com/str/ffaut14)<br>[eBay](https://www.ebay.com/itm/313901552520), seller [ffaut_14](https://www.ebay.com/str/ffaut14) |
+| Purchase link      | [eBay](https://www.ebay.com/itm/363856147846), seller [solarf5780](https://www.ebay.com/str/solarf5780)<br>[eBay](https://www.ebay.com/itm/313561026568), seller [ffaut_14](https://www.ebay.com/str/ffaut14)<br>[eBay](https://www.ebay.com/itm/313901552520), seller [ffaut_14](https://www.ebay.com/str/ffaut14)<br>[eBay](https://www.ebay.com/itm/363957795168?var=633222296884), seller [yunchaungke004](https://www.ebay.com/str/yunchaungke004) |
 | Type               | Analog flasher, non-connected                                                                                                                                                                                                                                                                                        |
 | Power draw         | Unmeasured (power source not 12V)                                                                                                                                                                                                                                                                                                                 |
-| MCU                | Unknown 8-pin, pinout like Toshiba                                                                                                                                                                                                                                                                                  |
+| MCU                | Dual op amp                                                                                                                                                                                                                                                                                  |
 | Pins through board | All                                                                                                                                                                                                                                                                                                                 |
 | Pins routed        | 4 (GND), 5 (GND), 16 (+12V)                                                                                                                                                                                                                                                                                         |
 | Board layers       | 1                                                                                                                                                                                                                                                                                                                   |
 
-Relatively boring device. No data pins connected, just power. What's wild about
-it is the IC is connected directly to 12V, so I doubt it's a microcontroller.
-Its pins are a bit touchy, probably because of all the 1 megaohm resistors.
-All it does is flash the amber and green LEDs back and forth.
+Relatively boring device. No data pins connected, just power. All it does is
+flash the amber and green LEDs back and forth. They're really reducing
+component count for LED flashers...
 
 LED pattern
 -----------
@@ -66,18 +65,26 @@ Photos
 
 ### Board
 
-<a href="board/board.jpg"><img src="thumbs/board_t.jpg" alt="Board"></a>
+<table>
+<tbody>
+<tr>
+<td><a href="board/board.jpg"><img src="thumbs/board_t.jpg" alt="Board"></a></td>
+<td><a href="board/board2.jpg"><img src="thumbs/board2_t.jpg" alt="Board"></a></td>
+</tr>
+</tbody>
+</table>
+
+Note the second one is from a different unit from a different seller, but still
+the same color and packaging. The only notable difference is this is a new
+board revision, with the center button shifted down a little, causing the
+nearby capacitor to be flipped, and a few traces nudged.
 
 Schematic
 ---------
 
 ![Schematic](board/schematic.png)
 
-The IC seems to have a Toshiba logic IC pinout of sorts, with pin 4 being GND
-and pin 8 being VCC. Pull pin 5 to ground, green lights; 6 to ground, amber
-lights; 7 to ground, green lights stronger. Because the amber and green LEDs
-are connected in series with the output in between, only one of them can light
-at a time, depending on the voltage on the output.
-
-Someone appears to have overheated the ground pins or otherwise pushed them
-out of position. Not the best manufacturing.
+The IC appears to be a dual op amp. The circuit is configured as an astable
+multivibrator. Because the amber and green LEDs are connected in series with
+the output in between, only one of them can light at a time, depending on the
+voltage on the output.
