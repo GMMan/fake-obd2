@@ -6,7 +6,7 @@ nitroOBD2 (2022-09)
 | Name               | nitroOBD2 (Benzine)                                                                                                                                                                                                                                                                                                 |
 | Purchase date      | 2022-09                                                                                                                                                                                                                                                                                                             |
 | Color              | Yellow                                                                                                                                                                                                                                                                                                              |
-| Purchase link      | [eBay](https://www.ebay.com/itm/363856147846), seller [solarf5780](https://www.ebay.com/str/solarf5780)<br>[eBay](https://www.ebay.com/itm/313561026568), seller [ffaut_14](https://www.ebay.com/str/ffaut14)<br>[eBay](https://www.ebay.com/itm/313901552520), seller [ffaut_14](https://www.ebay.com/str/ffaut14)<br>[eBay](https://www.ebay.com/itm/363957795168?var=633222296884), seller [yunchaungke004](https://www.ebay.com/str/yunchaungke004) |
+| Purchase link      | [eBay](https://www.ebay.com/itm/363856147846), seller [solarf5780](https://www.ebay.com/str/solarf5780)<br>[eBay](https://www.ebay.com/itm/313561026568), seller [ffaut_14](https://www.ebay.com/str/ffaut14)<br>[eBay](https://www.ebay.com/itm/313901552520), seller [ffaut_14](https://www.ebay.com/str/ffaut14)<br>[eBay](https://www.ebay.com/itm/363957795168?var=633222296884), seller [yunchaungke004](https://www.ebay.com/str/yunchaungke004)<br>[eBay](https://www.ebay.ca/itm/274918490194), seller [top_home](https://www.ebay.ca/str/tophome1990) |
 | Type               | Analog flasher, non-connected                                                                                                                                                                                                                                                                                        |
 | Power draw         | Unmeasured (power source not 12V)                                                                                                                                                                                                                                                                                                                 |
 | MCU                | Dual op amp                                                                                                                                                                                                                                                                                  |
@@ -78,6 +78,47 @@ Note the second one is from a different unit from a different seller, but still
 the same color and packaging. The only notable difference is this is a new
 board revision, with the center button shifted down a little, causing the
 nearby capacitor to be flipped, and a few traces nudged.
+
+Photos (green)
+--------------
+
+Although this is an ecoOBD2, it's still got the exact same YM-701A board.
+
+<table>
+<tbody>
+<tr>
+<td><a href="green/packaging/package_front.jpg"><img src="green/thumbs/package_front_t.jpg" alt="Package front"></a></td>
+<td><a href="green/packaging/package_back.jpg"><img src="green/thumbs/package_back_t.jpg" alt="Package back"></a></td>
+</tr>
+<tr>
+<td><a href="green/packaging/insert_front.jpg"><img src="green/thumbs/insert_front_t.jpg" alt="Insert front"></a></td>
+<td><a href="green/packaging/insert_back.jpg"><img src="green/thumbs/insert_back_t.jpg" alt="Insert back"></a></td>
+</tr>
+<tr>
+<td><a href="green/packaging/insert_inside_top.jpg"><img src="green/thumbs/insert_inside_top_t.jpg" alt="Insert inside top"></a></td>
+<td><a href="green/packaging/insert_inside_bottom.jpg"><img src="green/thumbs/insert_inside_bottom_t.jpg" alt="Insert inside bottom"></a></td>
+</tr>
+</tbody>
+</table>
+
+### Device shell
+
+<table>
+<tbody>
+<tr>
+<td><a href="green/shell/front.jpg"><img src="green/thumbs/front_t.jpg" alt="Shell front"></a></td>
+<td><a href="green/shell/back.jpg"><img src="green/thumbs/back_t.jpg" alt="Shell back"></a></td>
+</tr>
+<tr>
+<td><a href="green/shell/top.jpg"><img src="green/thumbs/top_t.jpg" alt="Shell top"></a></td>
+<td><a href="green/shell/bottom.jpg"><img src="green/thumbs/bottom_t.jpg" alt="Shell bottom"></a></td>
+</tr>
+<tr>
+<td><a href="green/shell/left.jpg"><img src="green/thumbs/left_t.jpg" alt="Shell left"></a></td>
+<td><a href="green/shell/right.jpg"><img src="green/thumbs/right_t.jpg" alt="Shell right"></a></td>
+</tr>
+</tbody>
+</table>
 
 Schematic
 ---------
